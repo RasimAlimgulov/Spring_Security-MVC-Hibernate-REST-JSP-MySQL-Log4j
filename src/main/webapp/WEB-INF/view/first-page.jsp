@@ -1,3 +1,6 @@
+<%@ taglib prefix="security" uri="http://www.springframework.org/security/tags" %>
+
+
 <!DOCTYPE html>
 <!-- Created By CodingLab - www.codinglabweb.com -->
 <html lang="en" dir="ltr">
@@ -26,8 +29,16 @@
                 <input type="submit" value="Login">
             </div>
             <div class="signup-link">Not a member? <a href="#">Signup now</a></div>
+            <br>
+            <security:authorize access="hasRole('ADMIN')">
+            <a href="adminPage"><h2>Link for ADMIN</h2></a>
+            </security:authorize>
         </form>
     </div>
 </div>
+<br>
+<%----%>
+
+<%--  --%>
 </body>
 </html>

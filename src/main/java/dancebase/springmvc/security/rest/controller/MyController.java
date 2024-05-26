@@ -17,8 +17,8 @@ public class MyController {
     public String firstPage(){
         return "first-page";
     }
-    @RequestMapping("/check")
-    public String secondPage(){
-     return "second-page";
+    @RequestMapping("/adminPage")
+    public String adminPage(){
+        return "adminPage";
     }
 }

@@ -8,6 +8,6 @@
     <title>Document</title>
 </head>
 <body>
-<h2>Some picture</h2>
+<img src="https://forum.taucetistation.org/uploads/default/original/3X/8/3/830505574f471b35016fe2e8dadc4aece608e38d.jpeg">
 </body>
 </html>
