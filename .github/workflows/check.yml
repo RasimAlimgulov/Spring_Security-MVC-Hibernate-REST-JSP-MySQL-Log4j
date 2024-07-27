@@ -1,0 +1,11 @@
+name : Check
+on: push
+jobs:
+   lint:
+     runs-on: ubuntu-latest
+     steps:
+         - name1: Checkout
+           uses: actions/checkout@v4
+         - name2: Install deps
+           run: npm ci
+         - name3: npm run lint
